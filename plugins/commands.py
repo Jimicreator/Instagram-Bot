@@ -1,6 +1,6 @@
 #MIT License
 
-#Copyright (c) 2021 subinps
+#Copyright (c) 2021 Jimi
 
 #Permission is hereby granted, free of charge, to any person obtaining a copy
 #of this software and associated documentation files (the "Software"), to deal
@@ -43,16 +43,16 @@ async def start(bot, cmd):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/subinps'),
-						InlineKeyboardButton("🤖Other Bots", url="https://t.me/subin_works/122")
+						InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/Jimi_Bots'),
+						InlineKeyboardButton("🤖Other Bots", url="https://t.me/Jimi_Bots")
 					],
                     [
-                        InlineKeyboardButton("🔗Source Code", url="https://github.com/subinps/Instagram-Bot"),
-						InlineKeyboardButton("🧩Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/subinps/Instagram-Bot")
+                        InlineKeyboardButton("🔗 Support Us", url=""),
+						InlineKeyboardButton("Be Happy 😊 ", url="")
                     ],
                     [
                         InlineKeyboardButton("👨🏼‍🦯How To Use?", callback_data="help#subin"),
-						InlineKeyboardButton("⚙️Update Channel", url="https://t.me/subin_works")
+						InlineKeyboardButton("⚙️Update Channel", url="https://t.me/Jimi_Bots")
 
                     ]
 					
@@ -66,15 +66,15 @@ async def start(bot, cmd):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/subinps'),
-						InlineKeyboardButton("🤖Other Bots", url="https://t.me/subin_works/122"),
+						InlineKeyboardButton("👨🏼‍💻Developer", (@Jimi_Bots),
+						InlineKeyboardButton("🤖Other Bots", (@Jimi_Bots),
 					],
                     [
-                        InlineKeyboardButton("🔗Source Code", url="https://github.com/subinps/Instagram-Bot")
+                        InlineKeyboardButton("🔗 SUPPORT US ", url="")
                     ],
                     [
                         InlineKeyboardButton("👨🏼‍🦯How To Use?", callback_data="help#subin"),
-						InlineKeyboardButton("⚙️Update Channel", url="https://t.me/subin_works")
+						InlineKeyboardButton("⚙️Update Channel", url="https://t.me/Jimi_Bots")
 
                     ]
 					
@@ -91,14 +91,14 @@ async def help(bot, cmd):
 		reply_markup=InlineKeyboardMarkup(
 			[
 				[
-					InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/subinps'),
-					InlineKeyboardButton("🤖Other Bots", url="https://t.me/subin_works/122"),
-					InlineKeyboardButton("⚙️Update Channel", url="https://t.me/subin_works")
+					InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/Jimi_Bots'),
+					InlineKeyboardButton("🤖Other Bots", url="https://t.me/Jimi_Bots"),
+					InlineKeyboardButton("⚙️Update Channel", url="https://t.me/Jimi_Bots")
 					
 				],
 				[
-					InlineKeyboardButton("🔗Source Code", url="https://github.com/subinps/Instagram-Bot"),
-					InlineKeyboardButton("🧩Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/subinps/Instagram-Bot")
+					InlineKeyboardButton("🔗 SUPPORT US", url=""),
+					InlineKeyboardButton("Be Happy 😊 ", url="")
 				]
 			]
 			)
@@ -113,16 +113,16 @@ async def stop(bot, cmd):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/subinps'),
-						InlineKeyboardButton("🤖Other Bots", url="https://t.me/subin_works/122")	
+						InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/Jimi_Bots'),
+						InlineKeyboardButton("🤖Other Bots", url="https://t.me/Jimi_Bots")	
 					],
                     [
-                        InlineKeyboardButton("🔗Source Code", url="https://github.com/subinps/Instagram-Bot"),
-						InlineKeyboardButton("🧩Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/subinps/Instagram-Bot")
+                        InlineKeyboardButton("Share And Support", url=""),
+						InlineKeyboardButton("Always Be Happy 🤓", url="")
                     ],
                     [
                         InlineKeyboardButton("👨🏼‍🦯How To Use?", callback_data="help#subin"),
-						InlineKeyboardButton("⚙️Update Channel", url="https://t.me/subin_works")
+						InlineKeyboardButton("⚙️Update Channel", url="https://t.me/Jimi_Bots")
 
                     ]
 					
